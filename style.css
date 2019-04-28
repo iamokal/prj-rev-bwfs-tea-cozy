@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+	background-color: black;
+	color: seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: 0.9;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	background-color: black;
+	align-items: center;
+	height: 69px;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid seashell;
+	text-align: right;
+	z-index: 1;
+}
+
+.logo img {
+	height: 50px;
+	padding-left: 10px;
+}
+
+nav {
+	width: 100%
+}
+
+nav span {
+	display: inline-block;
+	color: seashell;
+	padding-left: 30px;
+}
+
+/*******Mission********/
+
+main {
+	padding-top: 69px;
+	padding-left: 20px;
+	width: 1200px;
+}
+
+.mission {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+	width: 1200px;
+	margin-bottom: 60px;
+}
+
+#mission {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 45px;
+	width: 1200px;
+	height: 100px;
+	background-color: black;
+}
+
+/*******Featured Items********/
+
+.featurebox {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.feature {
+	width: 1000px;
+	text-align: center;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+
+.featurelist {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+	
+span #feature {
+	width: 1000px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#feature {
+	margin-right: 40px;
+	margin-bottom: 25px;
+}
+
+#feature img{
+	margin-bottom: 10px;
+	height: 200px;
+	width: 300px;
+}
+
+
+/*******Locations********/
+.location {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	background-position: 70% 25%;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.location h2 {
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 15px;
+	justify-content: center;
+	width: 100%;
+}
+
+#location {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 150px;
+	background-color: black;
+	width: 300px;
+	line-height: 60px;
+	opacity: 1;
+}
+
+/*******Footer********/
+
+footer {
+	margin-top: 20px;
+	line-height: 45px;
+	height: 200px;
+}
+
+
+footer h2 {
+	margin-bottom: 30px;
+}
+
+.copyright {
+	text-align: left;
+	background-color: black;
+	padding-bottom: 40px;
+}
+
